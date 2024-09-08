@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warinavi - Split Bill Navigator</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1c1e21;
+            color: #ffffff;
+        }
+        header {
+            background-color: #2a2d31;
+            padding: 10px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+            box-sizing: border-box;
+        }
+        header h1 {
+            font-size: 1.8em;
+            color: #00aaff;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        .container {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 80px);
+        }
+        .section-title {
+            font-size: 2em;
+            color: #00aaff;
+            margin-bottom: 20px;
+        }
+        .app-info {
+            text-align: center;
+            margin: 20px;
+        }
+        .app-info img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10%;
+        }
+        .app-info h2 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        .app-info p {
+            font-size: 1em;
+            color: #cccccc;
+            margin-bottom: 20px;
+        }
+        .app-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .app-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .app-links img {
+            width: auto;
+            height: 30px;
+            border-radius: 0%;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666666;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>Techaulait</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Apps</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="section-title">App Introduction</div>
+        <section class="app-info">
+            <img src="/images/warinavi_app_logo.png" alt="App Logo">
+            <h2>ワリナビ - 割り勘ナビ -</h2>
+            <p>「ワリナビ」は、あなたの割り勘ライフをシンプルでスムーズにするアプリです。iOSとAndroidで利用可能です。</p>
+            <div class="app-links">
+                <a class="ios" href="https://apps.apple.com/jp/app/id6615085527" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/App_Store_macOS.png" alt="App Store">
+                </a>
+                <a class="android" href="#" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_Play_2022_icon.svg" alt="Google Play">
+                </a>
+            </div>            
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Techaulait. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
