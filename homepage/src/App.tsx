@@ -21,7 +21,7 @@ const apps: AppInfo[] = [
     name: "聖徳太子ゲーム",
     icon: "https://i.imgur.com/XzH2UuL.png",
     description: "聖徳太子の能力を体験できる新感覚ゲーム。複数の会話を同時に理解できるかチャレンジしましょう。",
-    iosUrl: "#", // 審査中のため一時的に無効なリンク
+    iosUrl: "https://apps.apple.com/us/app/id6741699138",
   }
 ];
 
