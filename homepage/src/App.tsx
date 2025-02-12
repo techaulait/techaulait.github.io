@@ -18,7 +18,7 @@ const apps: AppInfo[] = [
     androidUrl: "https://play.google.com/store/apps/details?id=com.warinavi.flutter_warikan_app&hl=ja"
   },
   {
-    name: "聖徳太子ゲーム",
+    name: "聖徳太子クイズ",
     icon: "https://i.imgur.com/XzH2UuL.png",
     description: "聖徳太子の能力を体験できる新感覚ゲーム。複数の会話を同時に理解できるかチャレンジしましょう。",
     iosUrl: "https://apps.apple.com/us/app/id6741699138",
